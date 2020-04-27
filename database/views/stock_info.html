@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STOCK - {{ title }}</title>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1><a href="/main">메인으로 가기</a></h1>
+    <h2>{{ title }} 관련 정보</h2>
+    <ol>
+
+    </ol>
+    <div>
+        <a href="/main">뒤로가기</a>
+    </div>
+    <h2>홈페이지</h2>
+    <h4> <a href="http://{{site}}" target="_black">{{site}}</a></h2>
+    
+    <h2>관련 뉴스</h2>
+    {{news | safe}}
+</body>
+</html>

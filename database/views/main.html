@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STOCK</title>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1><a href="/main">Stock</a></h1>
+    <h2>관심종목</h2>
+    <ol>
+{{ menu | safe }}
+    </ol>
+    <div>
+        <a href="/logout">Logout</a>
+        <a href="/create">Create</a>
+        <!-- <a href="/main">Delete</a> -->
+    </div>
+    <!-- <form action="/main" method="post">
+        <p><button type="submit">Delete</button></p>
+    </form> -->
+    <!-- <h1>{{id}}</h1>
+    <h2>{{ title }}</h2> -->
+    <!-- {{ content }} -->
+</body>
+</html>

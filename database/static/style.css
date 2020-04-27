@@ -1,0 +1,54 @@
+li {
+    list-style:none;
+}
+
+h1 {
+    border-bottom: 20px solid seagreen;
+    padding: 50px;
+    font-size: 35px;
+    animation:circle 2s 1s infinite alternate;
+}
+
+
+h5 {
+    color: black;
+    font-size: 30px;
+    font-family: 휴먼매직체;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+a:visited {
+    color: black;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 300px 1fr 100px;
+}
+
+#container2 {
+    grid-template-columns: 200px 1f 100px;
+}
+
+.schBt{
+    width: 300px;
+    height : 40px;
+    font-size: 15px;    
+}
+
+.schText{
+    width: 295px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.schTextContent{
+    width: 295px;
+    height: 100px;
+    font-size: 12px;
+}

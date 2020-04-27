@@ -1,0 +1,22 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STOCK - Create</title>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+    <h1><a href="/main">STOCK</a></h1>
+    <ol>
+{{ menu | safe }}
+    </ol>
+    <h2>Create</h2>
+    <form action="/create" method="post">
+        <p><input type="text" name="title" placeholder="title"></p>
+        <button type="submit">제출</button>
+    </form>
+    {{ message }}
+</body>
+</html>
